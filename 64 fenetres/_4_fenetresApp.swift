@@ -11,7 +11,7 @@ import SwiftUI
 struct _4_fenetresApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(windows: Model())
         }
     }
 }

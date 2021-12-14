@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var windows : Model
+    
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+
+        Button {
+            windows.action()
+        } label: {
+            Text("Go!")
+        }
+        List(windows.selectWiner(), id: \.self) { winner in
+            Text(winner)
+        }
+
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(windows: Model())
     }
 }

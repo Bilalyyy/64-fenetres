@@ -11,6 +11,7 @@
 		9C54D5FD2768A0B2008182D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C54D5FC2768A0B2008182D5 /* ContentView.swift */; };
 		9C54D5FF2768A0B4008182D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C54D5FE2768A0B4008182D5 /* Assets.xcassets */; };
 		9C54D6022768A0B4008182D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C54D6012768A0B4008182D5 /* Preview Assets.xcassets */; };
+		9C54D6092768A2FA008182D5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C54D6082768A2FA008182D5 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9C54D5FC2768A0B2008182D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9C54D5FE2768A0B4008182D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C54D6012768A0B4008182D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C54D6082768A2FA008182D5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				9C54D5FA2768A0B2008182D5 /* _4_fenetresApp.swift */,
+				9C54D6082768A2FA008182D5 /* Model.swift */,
 				9C54D5FC2768A0B2008182D5 /* ContentView.swift */,
 				9C54D5FE2768A0B4008182D5 /* Assets.xcassets */,
 				9C54D6002768A0B4008182D5 /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C54D6092768A2FA008182D5 /* Model.swift in Sources */,
 				9C54D5FD2768A0B2008182D5 /* ContentView.swift in Sources */,
 				9C54D5FB2768A0B2008182D5 /* _4_fenetresApp.swift in Sources */,
 			);
